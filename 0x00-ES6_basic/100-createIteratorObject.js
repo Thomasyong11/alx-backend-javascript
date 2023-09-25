@@ -5,10 +5,10 @@ export default function createIteratorObject(report) {
         for (const employee of report[department]) {
           yield {
             department,
-            employee,
-          };
+            employee
+          }
         }
       }
-    },
-  };
+    }
+  }
 }
